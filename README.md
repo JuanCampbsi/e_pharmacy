@@ -22,34 +22,37 @@ _A farmácia precisa dos seguintes serviços (que devem ser disponibilizados par
 * Quantidade de pessoas atendidas
 * Número de remédios Quimioterápicos vendidos no dia, contendo a quantidade e o valor
 * Número de remédios Fitoterápicos vendidos no dia, contendo a quantidade e o valor
-* Requisitos mínimos a serem observados na modelagem
-* Existem 5 classes obrigatórias no seu projeto: Clientes, Medicamentos Quimioterápicos, Medicamentos Fitoterápicos, Laboratórios e Vendas. Elas devem ser usadas para organizar o projeto, e devem conter no mínimo os detalhes abaixo:
-	+ Clientes
-		* Identificador (CPF)
-		* Nome
-		* Data de nascimento
- 	+ Medicamentos Quimioterápicos
-		* Nome
-		* Principal composto
-		* Laboratório
-		* Descrição
-		* Necessita receita
-	+ Medicamentos Fitoterápicos
-		* Nome
-		* Principal composto
-		* Laboratório
-		* Descrição
-	+ Laboratório
-		* Nome
-		* Endereço
-		* Telefone para contato
-		* Cidade
-		* Estado
-	+ Vendas
-		* Data e hora da venda
-		* Produtos vendidos
-		* Cliente
-		* Valor total
+
+`Requisitos mínimos a serem observados na modelagem:`
+* Existem 5 classes obrigatórias no seu projeto: 
+	* Clientes, Medicamentos Quimioterápicos, Medicamentos Fitoterápicos, Laboratórios e Vendas. 
+	* Elas devem ser usadas para organizar o projeto, e devem conter no mínimo os detalhes abaixo:
+		+ Clientes
+			* Identificador (CPF)
+			* Nome
+			* Data de nascimento
+	 	+ Medicamentos Quimioterápicos
+			* Nome
+			* Principal composto
+			* Laboratório
+			* Descrição
+			* Necessita receita
+		+ Medicamentos Fitoterápicos
+			* Nome
+			* Principal composto
+			* Laboratório
+			* Descrição
+		+ Laboratório
+			* Nome
+			* Endereço
+			* Telefone para contato
+			* Cidade
+			* Estado
+		+ Vendas
+			* Data e hora da venda
+			* Produtos vendidos
+			* Cliente
+			* Valor total
 
 **_Importante:
 Como "banco de dados" temporário para armazenar os dados sugerimos listas ou dicionários (o que for mais simpĺes de implementar). Não recomendamos bancos de dados (relacionais ou não relacionais) ou arquivos, visto que estas estruturas não são o foco deste módulo._**
