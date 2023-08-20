@@ -26,6 +26,7 @@ class Relatorio(Farmacia):
     def relatorio_quimio_fito():
         return
     
+    # Imprimir sempre no fechamento do sistema
     def relatorio_mais_vendido(vendas: List[Venda]) -> tuple:
         medicamento_contador = Counter()
         valor_total_medicamento = {}
