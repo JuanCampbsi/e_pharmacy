@@ -80,4 +80,3 @@ class Farmacia:
             print("Erro: Um dos medicamentos na lista não possui um atributo necessário.")
         except Exception as e:
             print(f"Ocorreu um erro durante a venda: {e}")
-
