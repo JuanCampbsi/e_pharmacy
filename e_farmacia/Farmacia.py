@@ -29,7 +29,7 @@ class Farmacia:
     @property
     def laboratorios(self) -> List[Laboratorio]:
         return self.__laboratorios
-
+    
     def adicionar_cliente(self, cliente: Cliente):
         self.__clientes.append(cliente)
 
@@ -47,7 +47,7 @@ class Farmacia:
 
     def buscar_medicamento_por_nome(self, nome: str) -> Medicamento:
         return next((medicamento for medicamento in self.__medicamentos if medicamento.nome == nome), None)
-
+    
     @staticmethod
     def calcular_desconto(cliente: Cliente, valor_total: float) -> float:
         if cliente.data_nascimento.year >= 65:
